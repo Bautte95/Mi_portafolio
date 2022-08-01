@@ -9,7 +9,7 @@ html{
 .contenedor__header{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(10, 10, 10, 0.829), rgba(0, 0, 0, 0.795)), url(http://localhost/Mi_portafolio_web/IMG/Fondo_header.jpg);
+    background-image: linear-gradient(rgba(10, 10, 10, 0.829), rgba(0, 0, 0, 0.795)), url(../IMG/Fondo_header.jpg);
 }
 /* Estilo del logo */
 
@@ -278,18 +278,20 @@ html{
     margin-top: 20px;
 }
 
-.enlaces__proyectos a{
-    margin: 15px;
+.boton__proyetos{
+    margin: 10px;
     font-size: 12px;
     text-decoration: none;
+    border: solid 0.1px rgba(255, 255, 255, 0.432);
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.733);
     transition: 0.5s;
+    cursor: pointer;
 }
 
-.enlaces__proyectos a:hover{
+.boton__proyetos:hover{
     background-color: rgba(76, 160, 238, 0.527);
     transition: 0.5s;
 }
@@ -351,7 +353,7 @@ html{
     justify-content: center;
 }
 
-#comentarios{
+#mensaje{
     font-size: 13px;
     border-radius: 5px;
     border: none;

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/Mi_portafolio_web/CSS/estilo_portafolio.css">
-    <link rel="stylesheet" href="http://localhost/Mi_portafolio_web/CSS/estilo_portafolio_responsive.css">
-    <link rel="stylesheet" href="http://localhost/Mi_portafolio_web/CSS/normalize.css">
+    <link rel="stylesheet" href="/CSS/estilo_portafolio.css">
+    <link rel="stylesheet" href="/CSS/estilo_portafolio_responsive.css">
+    <link rel="stylesheet" href="/CSS/normalize.css">
     <script src="https://kit.fontawesome.com/d86715601a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
-    <title>Document</title>
+    <title>DimasB Desarrollador Web </title>
 </head>
 <body>
     <div class="barra_menu_lateral">
@@ -63,7 +63,7 @@
             <div class="caja__sobreMi">
                 <div>
                     <div class="caja__foto sobreMi__responsive">
-                        <img src="http://localhost/Mi_portafolio_web/IMG/foto_perfil.jpg" alt="">
+                        <img src="/IMG/foto_perfil.jpg" alt="">
                     </div>
                 </div>
                 <div class="caja__miDescripcion sobreMi__responsive">
@@ -71,7 +71,7 @@
                     Me considero una personas apasionada e innovadora que se encuentra siempre en busca de nuevos conocimientos, me comprometo mucho con el cumplimiento de mis objetivos y responsabilidades, soy bueno trabajando en equipo y adaptándome a los cambios.
  </p>
                     <div class="caja__cv">
-                        <a href="http://localhost/Mi_portafolio_web/CV/CV-Dimas_Bautte.pdf" download="CV-Dimas_Bautte.pdf"><button class="boton__descarga__cv">Descargar CV</button></a>
+                        <a href="/CV/CV-Dimas_Bautte.pdf" download="CV-Dimas_Bautte.pdf"><button class="boton__descarga__cv">Descargar CV</button></a>
                     </div>
                 </div>
             </div>
@@ -82,13 +82,13 @@
                 <hr>
             </div>
             <div class="caja__habilidades">
-                <div><img id="img__html" src="http://localhost/Mi_portafolio_web/IMG/html.png" alt=""></div>
-                <div><img id="img__CSS" src="http://localhost/Mi_portafolio_web/IMG/css-3.png" alt=""></div>
-                <div><img id="img__BOOTSTRAP" src="http://localhost/Mi_portafolio_web/IMG/Bootstrap_logo.svg.png" alt=""></div>
-                <div><img id="img__JS" src="http://localhost/Mi_portafolio_web/IMG/js.png" alt="" srcset=""></div>
-                <div><img id="img__GIT" src="http://localhost/Mi_portafolio_web/IMG/github.png" alt=""></div>
-                <div><img id="img__MYSQL" src="http://localhost/Mi_portafolio_web/IMG/mysql.png" alt=""></div>
-                <div><img id="img__PHP" src="http://localhost/Mi_portafolio_web/IMG/php.png" alt=""></div>
+                <div><img id="img__html" src="/IMG/html.png" alt=""></div>
+                <div><img id="img__CSS" src="/IMG/css-3.png" alt=""></div>
+                <div><img id="img__BOOTSTRAP" src="/IMG/Bootstrap_logo.svg.png" alt=""></div>
+                <div><img id="img__JS" src="/IMG/js.png" alt="" srcset=""></div>
+                <div><img id="img__GIT" src="/IMG/github.png" alt=""></div>
+                <div><img id="img__MYSQL" src="/IMG/mysql.png" alt=""></div>
+                <div><img id="img__PHP" src="/IMG/php.png" alt=""></div>
             </div>
         </section>
         <section class="seccion__proyectos" id="proyectos">
@@ -98,30 +98,29 @@
             </div>
             <div class="caja__proyectos">
                 <div class="proyecto__portafolio">
-                    <img src="http://localhost/Mi_portafolio_web/IMG/proyecto_portafolio.jpg" alt="">
+                    <img src="/IMG/proyecto_portafolio.jpg" alt="">
                     <div class="descripcion__proyecto">
                         <h4>Mi portafolio</h4>
                         <div class="enlaces__proyectos">
-                            <a href=""><i class="fa-solid fa-earth-americas"></i>  Sitio web</a>
-                            <a href=""><i class="fa-brands fa-github"></i>  Repositorio</a>
+                            <a href="https://github.com/Bautte95/Mi_portafolio" target="_blank" class="boton__proyetos"><i class="fa-brands fa-github"></i>  Repositorio</a>
                         </div>
                     </div>
                 </div>
                 <div class="proyecto__portafolio">
-                    <img src="http://localhost/Mi_portafolio_web/IMG/proyecto_sena.jpg" alt="">
+                    <img src="/IMG/proyecto_sena.jpg" alt="">
                     <div class="descripcion__proyecto">
                         <h4>Proyecto Sena</h4>
                         <div class="enlaces__proyectos">
-                            <a href=""><i class="fa-solid fa-earth-americas"></i>  Sitio web</a>
-                            <a href=""><i class="fa-brands fa-github"></i>  Repositorio</a>
+                            <button class="info__proyecto__SENA boton__proyetos"><i class="fa-solid fa-circle-info"></i> Información</button>
+                            <a href="" class="boton__proyetos"><i class="fa-brands fa-github"></i>  Repositorio</a>
                         </div>
                     </div>
                 </div>
                 <div class="proyecto__portafolio">
-                    <img src="http://localhost/Mi_portafolio_web/IMG/imagen.jpg" alt="">
+                    <img src="/IMG/imagen.jpg" alt="">
                 </div>
                 <div class="proyecto__portafolio">
-                    <img src="http://localhost/Mi_portafolio_web/IMG/imagen.jpg" alt="">
+                    <img src="/IMG/imagen.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -133,11 +132,11 @@
             <div class="caja__formulario" >
                 <form id = "envio__form" class="contenedor__formulario" method="post">
                     <div class="fila1__form">
-                        <input type="text" id="nombre" class="focus__nombre focus" placeholder="Nombre" name="nombre" require="">
-                        <input type="email" id="email" class="focus__email focus" placeholder="Email" name="email" require="">
+                        <input type="text" id="nombre" class="focus__nombre focus" placeholder="Nombre" name="nombre">
+                        <input type="email" id="email" class="focus__email focus" placeholder="Email" name="email">
                     </div>
                     <div class="fila2__form">
-                        <textarea type="text" id="comentarios" class="focus__comentarios focus" placeholder="Comentarios" name="comentarios" require=""></textarea>
+                        <textarea type="text" id="mensaje" class="focus__mensaje focus" placeholder="Mensaje" name="mensaje"></textarea>
                         <button id="enviar__datos" type="button" class="boton__enviar" name = "enviar">Enviar</button>
                     </div>
                 </form>
@@ -159,6 +158,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
-    <script src="http://localhost/Mi_portafolio_web/JS/portafolio.js"></script>
+    <script src="/JS/portafolio.js"></script>
 </body>
 </html>

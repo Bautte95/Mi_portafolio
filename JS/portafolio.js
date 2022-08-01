@@ -31,11 +31,22 @@ function mostrarNavLateral(){
 
 window.addEventListener("scroll",mostrarNavLateral);
 
+// codigo de mas informacion boton proyecto SENA
+
+const infoProyectoSena = document.querySelector(".info__proyecto__SENA");
+
+infoProyectoSena.addEventListener("click", ()=>{
+
+    swal({
+        text: "Este es un proyecto grupal del SENA en donde se esta está diseñando y desarrollando una agenda virtual para una empresa dedicada a la distribución y almacenamiento de alimentos congelados, esta agenda virtual tiene como propósito unificar los diferentes canales de información que los clientes de la empresa utilizan para solicitar sus servicios de cargue, descargue y almacenamiento de alimentos.",
+      });
+});
+
 // codigo validacion de formulario y codigo ajax
 
 const nombre = document.getElementById("nombre");
 const correo = document.getElementById("email");
-const comentarios = document.getElementById("comentarios");
+const mensaje = document.getElementById("mensaje");
 const alertaError = document.getElementById("error");
 
 $("#enviar__datos").click(function(){
@@ -48,15 +59,15 @@ $("#enviar__datos").click(function(){
     }else if(correo.value.indexOf("@") == -1 || correo.value.indexOf(".") == -1){
         alertaError.innerHTML = "Por favor ingresa un correo electrónico correcto";
     }
-    else if(comentarios.value === null || comentarios.value == ""){
-        alertaError.innerHTML = "Por favor ingresa tus comentarios";
+    else if(mensaje.value === null || mensaje.value == ""){
+        alertaError.innerHTML = "Por favor ingresa tu mensaje";
     }else{
         nombre.value = "";
         correo.value = "";
-        comentarios.value = "";
+        mensaje.value = "";
 
         $.ajax({
-            url: 'http://localhost/Mi_portafolio_web/PHP/contactar.php',
+            url: '../PHP/contactar.php',
             type: 'POST',
             data: datos,
             success: function(e){
